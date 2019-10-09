@@ -11,6 +11,11 @@ class Post
   def self.all
       @@all 
   end
+  
+   def artist=(artist)
+        @artist = artist 
+        artist.songs << self 
+    end
 
   # def author_name
   #   if author 
