@@ -28,4 +28,6 @@ class Artist
       add_song(singer)
     end 
     
+    def 
+    end 
     end 
