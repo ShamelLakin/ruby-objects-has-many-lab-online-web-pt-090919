@@ -29,7 +29,7 @@ class Author
   end
 
   def self.post_count
-    Post.all.count
+    @@post_count.all
   end
 
 end 
