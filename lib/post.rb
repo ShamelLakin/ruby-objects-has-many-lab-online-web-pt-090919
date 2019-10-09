@@ -12,9 +12,9 @@ class Post
       @@all 
   end
   
-  # def author_name
-          author=(author)
-  #       @author = author 
-  #       author.posts << self 
-  # end
+   def author_name
+       author=(author)
+      @author = author 
+      author.posts << self 
+   end
   end
