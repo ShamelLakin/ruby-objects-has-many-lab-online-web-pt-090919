@@ -23,10 +23,10 @@ class Artist
     #   self.all.find {|artist| artist.name == name} || artist = Artist.new(name) 
     # end 
     
-    # def add_song_by_name(name)
-    #   song = Song.new(artist)
-    #   # song.artist << song
-    #   song.artist = self
-    # end 
+    def add_song_by_name(name)
+      song = Song.new(artist)
+      # song.artist << song
+      song.artist = self
+    end 
     
     end 
