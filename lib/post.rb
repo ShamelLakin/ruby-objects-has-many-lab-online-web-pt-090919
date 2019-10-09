@@ -16,7 +16,7 @@ class Post
     if author 
       self.author.name 
     else
-      Self(nil)
+      Puts nil
     end
   end
 end
