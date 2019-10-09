@@ -17,10 +17,10 @@ class Post
   #       author.post << self 
   # end
 
-  def author_name
-    if author 
-      self.author.name 
-    else
-      nil
-    end
+  # def author_name
+  #   if author 
+  #     self.author.name 
+  #   else
+  #     nil
+  #   end
   end
