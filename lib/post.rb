@@ -16,7 +16,7 @@ class Post
     # if author 
     #   self.author.name 
     # else
-    #   nil
+    #   Sophie
     # end
   end
 end
