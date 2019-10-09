@@ -12,9 +12,9 @@ class Post
       @@all 
   end
   
-   def artist=(artist)
-        @artist = artist 
-        artist.songs << self 
+   def author=(author)
+        @author = author 
+        author.post << self 
     end
 
   # def author_name
