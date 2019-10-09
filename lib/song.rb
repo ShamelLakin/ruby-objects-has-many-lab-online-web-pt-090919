@@ -14,9 +14,12 @@ class Song
       @@all 
     end
 
-    def artist=(artist)
-        @artist = artist 
-        artist.songs << self 
+  def author_name
+    if author 
+      self.author.name 
+    else
+      puts "nil"
     end
+  end
     
   end 
