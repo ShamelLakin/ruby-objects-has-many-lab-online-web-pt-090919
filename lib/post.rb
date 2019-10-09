@@ -13,8 +13,9 @@ class Post
   end
   
    def author_name
-      author=(author)
-      @author = author 
-      author.posts << self 
-   end
+    if author 
+      self.author.name 
+    else
+      nil
+    end
   end
