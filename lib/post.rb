@@ -15,6 +15,6 @@ class Post
    def author_name
       # author=(author)
       @author = author 
-      author.posts << self 
+      # author.posts << self 
    end
   end
