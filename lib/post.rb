@@ -16,7 +16,7 @@ class Post
     if author 
       self.author.name 
     else
-      Sophie
+      Self = nil
     end
   end
 end
