@@ -19,9 +19,9 @@ class Artist
         song.artist = self
     end
     
-    def self.find_or_create_by_name(name)
-      self.all.find {|artist| artist.name == name} || artist = Artist.new(name) 
-    end 
+    # def self.find_or_create_by_name(name)
+    #   self.all.find {|artist| artist.name == name} || artist = Artist.new(name) 
+    # end 
     
     # def add_song_by_name(name)
     #   song = Song.new(artist)
